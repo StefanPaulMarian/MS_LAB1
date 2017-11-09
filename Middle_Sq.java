@@ -1,11 +1,5 @@
-package cazarecamin_pckg;
 import java.lang.Math;
 
-import cazarecamin_pckg.Generator;
-
-/**
- * Created by ioan on 11/8/17.
- */
 public class Middle_Sq implements Generator {
 
     private int seed;
