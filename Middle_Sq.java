@@ -1,7 +1,11 @@
 package cazarecamin_pckg;
+import java.lang.Math;
 
 import cazarecamin_pckg.Generator;
 
+/**
+ * Created by ioan on 11/8/17.
+ */
 public class Middle_Sq implements Generator {
 
     private int seed;
@@ -17,7 +21,7 @@ public class Middle_Sq implements Generator {
         x=x/(int)Math.pow(10,Var_seed()/2);
         x=x%(int)Math.pow(10,Var_seed());
         seed=x;
-        return x;
+        return x/(float)Math.pow(10,Var_seed ());
     }
     public int Var_seed (){
         int n=seed,ok=0;
